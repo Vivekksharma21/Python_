@@ -1,0 +1,5 @@
+a = int(input("Enter an integer : "))
+print(a)
+print("Binary equivalent is : ",bin(a))
+print(hex(a))
+print(oct(a))

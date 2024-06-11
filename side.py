@@ -1,0 +1,10 @@
+from tkinter import *
+root = Tk()
+w = Label(root,text="Red sun ",bg="red",fg="white")
+w.pack(padx=5,pady=10,side=LEFT)
+w = Label(root,text="Green Greass",bg="green",fg="white")
+w.pack(padx=5,pady=20,side=LEFT)
+w = Label(root,text="BLUE",bg="blue",fg="white")
+w.pack(fill=X,ipadx=10)
+w = Label(root,text="Pink",bg="pink",fg="white")
+w.pack(fill=Y,ipady=10)
